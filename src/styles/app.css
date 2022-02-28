@@ -119,6 +119,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 1em;
+  margin-bottom: 1em;
 }
 
 .serchIcon > path {
@@ -133,6 +134,7 @@ body {
   display: -ms-grid;
   display: grid;
   width: 100%;
-  justify-items: center;
+  justify-items: baseline;
+  gap: 1em;
 }
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,55 @@
+.mainBox
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width :50vw;
+    height: 3em;
+    justify-self: baseline;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    border-style: none;
+    margin-left: .5em;
+}
+.filterBy
+{
+    font-size: 1em;
+    font-weight: 400;
+}
+.angleDown
+{
+    transition: transform .1s linear ;
+}
+.angleUp
+{
+    transform:rotate(180deg);
+    transition: transform .1s linear ;
+}
+.optionBox
+{    border-style: none;
+    font-family: inherit;
+}
+.optionBox:first-child
+{
+    border-radius: 5px 5px 0px 0px;
+}
+.optionBox:last-child
+{
+    border-radius: 0px 0px 5px 5px;
+}
+.filterOptions
+{
+    margin-top: .5em;
+display:grid;
+position: absolute;
+z-index: 2;
+width :50vw;
+margin-left: .5em;
+border-radius: 5px 5px 5px 5px;
+box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+.on
+{
+font-weight: 800;
+}
