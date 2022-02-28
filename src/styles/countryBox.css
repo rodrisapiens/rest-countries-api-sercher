@@ -1,0 +1,28 @@
+.countryBox {
+  display: -ms-grid;
+  display: grid;
+  border-radius: 5px 5px 5px 5px;
+  width: 70vw;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  height: 55vh;
+}
+
+.flag {
+  border-radius: 5px 5px 0px 0px;
+  width: inherit;
+  height: 9em;
+}
+
+.name {
+  padding-inline: .7em;
+  margin-top: .7em;
+}
+
+.datas {
+  padding: 1em;
+  font-weight: 600;
+}
+/*# sourceMappingURL=countryBox.css.map */
