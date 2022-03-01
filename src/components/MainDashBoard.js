@@ -103,7 +103,7 @@ function MainDashBoard({ mode }) {
                 })
                 }
                 {
-                    data[0]&&regionData[0]&&initialInfo[0]===undefined?"loading...":null
+                    initialInfo[0]===undefined?<h1>loading...</h1>:null
                 }
             </div>
         </>
