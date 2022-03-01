@@ -137,4 +137,8 @@ body {
   justify-items: baseline;
   gap: 1em;
 }
+
+a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=app.css.map */

@@ -30,6 +30,11 @@
 {    border-style: none;
     font-family: inherit;
 }
+.optionBox:hover
+{
+    font-weight: 800;
+
+}
 .optionBox:first-child
 {
     border-radius: 5px 5px 0px 0px;

@@ -1,0 +1,28 @@
+.bigFlag {
+  height: 4em;
+}
+
+.key {
+  font-weight: 600;
+}
+
+.info {
+  font-weight: 800;
+}
+
+.specializedPage {
+  display: -ms-grid;
+  display: grid;
+}
+
+.back {
+  border-style: none;
+  border-radius: 5px;
+  height: 3em;
+  width: 6em;
+  padding: .5em;
+  font-family: inherit;
+  -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=specializedPage.css.map */
