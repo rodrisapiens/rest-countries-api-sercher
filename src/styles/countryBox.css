@@ -10,8 +10,12 @@
 }
 
 .countryBox:hover {
-  -webkit-box-shadow: 0 0px 10px cornflowerblue;
-          box-shadow: 0 0px 10px cornflowerblue;
+  -webkit-transition: -webkit-transform .1s linear;
+  transition: -webkit-transform .1s linear;
+  transition: transform .1s linear;
+  transition: transform .1s linear, -webkit-transform .1s linear;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .flag {
@@ -27,5 +31,17 @@
 .datas {
   padding: 1em;
   font-weight: 600;
+}
+
+@media all and (min-width: 381px) {
+  .countryBox {
+    width: 15vw;
+  }
+  .name {
+    font-size: 1.1em;
+  }
+  .flag {
+    height: 6em;
+  }
 }
 /*# sourceMappingURL=countryBox.css.map */

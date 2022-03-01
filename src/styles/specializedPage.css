@@ -1,18 +1,18 @@
 .bigFlag {
-  height: 4em;
-}
-
-.key {
-  font-weight: 600;
+  width: 100%;
+  max-height: 400px;
 }
 
 .info {
-  font-weight: 800;
+  font-weight: 300;
+  font-size: 1em;
 }
 
 .specializedPage {
   display: -ms-grid;
   display: grid;
+  padding-inline: 1.5em;
+  gap: 1em;
 }
 
 .back {
@@ -20,9 +20,79 @@
   border-radius: 5px;
   height: 3em;
   width: 6em;
-  padding: .5em;
+  padding: 0.5em;
   font-family: inherit;
   -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.borders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow-wrap: anywhere;
+}
+
+b {
+  font-weight: 600;
+}
+
+.borderBox {
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.spe {
+  background-color: inherit;
+}
+
+@media all and (min-width: 381px) {
+  .back {
+    position: absolute;
+    top: 9em;
+    left: 2em;
+  }
+  .specializedPage {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 14em;
+    gap: 10em;
+  }
+  .secondHalf {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .secondInfos {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .borders {
+    justify-self: baseline;
+  }
 }
 /*# sourceMappingURL=specializedPage.css.map */

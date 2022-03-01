@@ -1,27 +1,70 @@
-.bigFlag
-{
-    height: 4em;
+.bigFlag {
+    width: 100%;
+    max-height: 400px;
 }
-.key
-{
-    font-weight: 600;
+.info {
+    font-weight: 300;
+    font-size: 1em;
 }
-.info
-{
-    font-weight: 800;
-}
-.specializedPage
-{
+.specializedPage {
     display: grid;
+    padding-inline: 1.5em;
+    gap: 1em;
 }
-.back
-{
+.back {
     border-style: none;
     border-radius: 5px;
     height: 3em;
     width: 6em;
-    padding: .5em;
+    padding: 0.5em;
     font-family: inherit;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
-
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+.borders {
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    overflow-wrap: anywhere;
+}
+b {
+    font-weight: 600;
+}
+.borderBox {
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: fit-content;
+}
+.spe {
+    background-color: inherit;
+}
+@media all and (min-width: 381px) {
+    .back {
+        position: absolute;
+        top: 9em;
+        left: 2em;
+    }
+    .specializedPage {
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+        top: 14em;
+        gap: 10em;
+    }
+    .secondHalf
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      
+    }
+    .secondInfos{
+        align-self: center;
+    }
+    .borders{
+        justify-self: baseline;
+    }
 }

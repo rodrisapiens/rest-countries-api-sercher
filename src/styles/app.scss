@@ -110,4 +110,56 @@ gap: 1em;
 }
 a{
     text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+}
+p{
+    font-size: .7em;
+}
+@media all and (min-width:381px)
+{
+    .countries
+{
+    display: grid;
+    justify-items: center;
+    gap:1em;
+padding: 1em;
+margin-top: -3em;
+grid-template-columns: 22% 15% 22% 15%;
+}
+.selectors
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: fit-content;
+    padding: 2em;
+    margin-top: -2em;
+}
+.sercher
+{
+    font-family: inherit;
+    font-weight: 600;
+border: none;
+outline: none;
+height: 3em;
+width: 20vw;
+color: #C4C4C4;
+background-color: inherit;
+}
+.header
+{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100vw;
+height: 4em;
+box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+padding: 1.1em;
+.serchColumn
+{
+    margin-left: 11em;
+}
+
+}
 }

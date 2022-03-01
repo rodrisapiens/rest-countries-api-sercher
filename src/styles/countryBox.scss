@@ -7,7 +7,8 @@
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
 }
 .countryBox:hover{
-    box-shadow: 0 0px 10px cornflowerblue;
+    transition: transform .1s linear;
+    transform: scale(1.05 );
 }
 .flag
 {
@@ -23,4 +24,18 @@ margin-top: .7em;
 {
     padding: 1em;
 font-weight: 600;
+}
+@media all and (min-width:381px)
+{
+    .countryBox
+    {
+        width: 15vw;
+        }
+    .name{
+        font-size: 1.1em;
+    }
+    .flag{
+        height: 6em;
+    }
+
 }

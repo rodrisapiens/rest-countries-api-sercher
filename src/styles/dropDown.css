@@ -73,4 +73,40 @@
 .on {
   font-weight: 800;
 }
+
+@media all and (min-width: 381px) {
+  .mainBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 10vw;
+    height: 4em;
+    justify-self: baseline;
+    padding: 1em;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    border-style: none;
+    margin-left: .5em;
+    margin-right: 10em;
+  }
+  .filterOptions {
+    margin-top: .5em;
+    display: -ms-grid;
+    display: grid;
+    position: absolute;
+    z-index: 2;
+    width: 10vw;
+    margin-left: .5em;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  }
+}
 /*# sourceMappingURL=dropDown.css.map */
