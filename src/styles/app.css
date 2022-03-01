@@ -152,7 +152,7 @@ p {
   font-size: .7em;
 }
 
-@media all and (min-width: 381px) {
+@media all and (min-width: 500px) {
   .countries {
     display: -ms-grid;
     display: grid;

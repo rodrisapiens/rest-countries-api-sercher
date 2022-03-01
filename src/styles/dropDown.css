@@ -74,7 +74,7 @@
   font-weight: 800;
 }
 
-@media all and (min-width: 381px) {
+@media all and (min-width: 500px) {
   .mainBox {
     display: -webkit-box;
     display: -ms-flexbox;

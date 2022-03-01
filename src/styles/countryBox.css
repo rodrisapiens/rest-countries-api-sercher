@@ -33,7 +33,7 @@
   font-weight: 600;
 }
 
-@media all and (min-width: 381px) {
+@media all and (min-width: 500px) {
   .countryBox {
     width: 15vw;
   }
