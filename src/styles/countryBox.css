@@ -29,13 +29,17 @@
 }
 
 .datas {
-  padding: 1em;
+  padding-inline: 1em;
   font-weight: 600;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 @media all and (min-width: 500px) {
   .countryBox {
-    width: 15vw;
+    width: 13em;
+    height: 13.9em;
   }
   .name {
     font-size: 1.1em;
